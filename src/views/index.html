@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gerador de Palavras</title>
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles/main.css">
+  <link rel="stylesheet" href="styles/index.css">
+</head>
+<body>
+  <div class="content">
+    <header>
+      <h1>Gerador de Palavras</h1>
+      <p>Palavras para rimar</p>
+    </header>
+
+    <form action="/" method="POST">
+      <fieldset>
+        <h3>Configurações</h3>
+
+        <div class="fieldGroup">
+          <label for="wordsPerMinute">Palavras por minuto:</label>
+          <input type="number" name="wordsPerMinute" id="wordsPerMinute" placeholder="3" required>
+        </div>
+        
+        <div class="fieldGroup">
+          <label for="time">Tempo máximo: (opcional)</label>
+          <input type="number" name="time" id="maxTime" placeholder="segundos">
+        </div>
+      </fieldset>
+
+      <button type="submit">Iniciar Gerador</button>
+    </form>
+  </div>
+</body>
+</html>

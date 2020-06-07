@@ -1,0 +1,63 @@
+body {
+  justify-content: flex-start;
+}
+
+.hidden {
+  display: none;
+}
+
+header {
+  margin-top: 2rem;
+  width: 90vw;
+
+  justify-self: flex-start;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.timer, .wordCounter {
+  background-color: #cdcddadd;
+  padding: 0.5rem;
+  font-size: 1rem;
+  border-radius: 1rem;
+}
+
+strong {
+  color: rgb(230, 245, 100);
+}
+
+.content {
+  margin-top: 22vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.wordDisplay {
+  padding: 1rem 2rem;
+  margin-bottom: 3rem;
+  
+  font-size: 2rem;
+
+  color: black;
+  background-color: #cdcddadd;
+}
+
+.content button {
+  font-size: 1rem;
+  padding: 2rem 3rem;
+
+  border-radius: 0.5rem;
+  border: none;
+  outline: none;
+
+  color: white;
+  background-color: #ca2e1add;
+}
+
+.content button:active {
+  opacity: 0.8;
+}

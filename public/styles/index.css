@@ -1,0 +1,62 @@
+.content {
+  padding: 1rem;
+  max-width: 20rem;
+  max-height: 18rem;
+  border-radius: 0.5rem;
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  background-color: #cdcddadd;
+  box-shadow: 
+  5px 5px 10px black;
+}
+
+form fieldset {
+  width: 90%;
+  padding: 1rem;
+
+  display: flex;
+  flex-direction: column;
+
+
+  border: none;
+  border-radius: 0.5rem;
+}
+
+form fieldset h3 {
+  margin-bottom: 0.5rem;
+}
+
+form fieldset .fieldGroup {
+  display: flex;
+  justify-content: space-between;
+}
+
+form fieldset label {
+  line-height: 1.1rem;
+}
+
+form fieldset input {
+  width: 5rem;
+  padding: 0.2rem;
+  font-size: 0.8rem;
+  border: none;
+}
+
+#wordsPerMinute {
+  margin-bottom: 1rem;
+}
+
+form button {
+  width: 100%;
+  padding: 0.5rem;
+  font-size: 1rem;
+
+  border: none;
+  border-radius: 0.5rem;
+
+  color: white;
+  background-color: #1c7ad1;
+}

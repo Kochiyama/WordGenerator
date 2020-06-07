@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gerador de Palavras</title>
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles/main.css">
+  <link rel="stylesheet" href="styles/generator.css">
+</head>
+<body>
+  <div class="hidden">
+    <input value="{{ time }}" id="maxTime">
+
+    <input value="{{ wordsPerMinute }}" id="wordsPerMinute">
+    
+  </div>
+
+  <header>
+    <div class="timer">
+      <h1>TIMER: <strong id="time">00:00</strong></h1>
+    </div>
+
+    <div class="wordCounter">
+      <h1>Palavras: <strong id="wordCount">1</strong></h1>
+    </div>
+  </header>
+  
+  <div class="content">
+
+    <div class="wordDisplay">
+      <h1 id="word">ALMOXARIFADO</h1>
+    </div>
+
+    <button id="stopButton">Stop</button>
+  </div>
+    
+  <script src="/scripts/wordGenerator.js"></script>
+</body>
+</html>
