@@ -11,29 +11,33 @@
 </head>
 <body>
   <div class="hidden">
-    <input value="{{ time }}" id="maxTime">
-
     <input value="{{ wordsPerMinute }}" id="wordsPerMinute">
-    
   </div>
 
-  <header>
-    <div class="timer">
-      <h1>TIMER: <strong id="time">00:00</strong></h1>
-    </div>
+  <div class="result hidden">
+    <h1>Palavras rimadas: <strong id="wordsNumber"></strong></h1>
+    <h1>Tempo de rima: <strong id="timeTotal"></strong></h1>
+  </div>
 
-    <div class="wordCounter">
-      <h1>Palavras: <strong id="wordCount">1</strong></h1>
-    </div>
-  </header>
+  <div class="section2">
+    <header>
+      <div class="timer">
+        <h1>TIMER: <strong id="time">00:00</strong></h1>
+      </div>
   
-  <div class="content">
-
-    <div class="wordDisplay">
-      <h1 id="word">ALMOXARIFADO</h1>
+      <div class="wordCounter">
+        <h1>Palavras: <strong id="wordCount">1</strong></h1>
+      </div>
+    </header>
+    
+    <div class="content">
+  
+      <div class="wordDisplay">
+        <h1 id="word">ALMOXARIFADO</h1>
+      </div>
+  
+      <button id="stopButton">Stop</button>
     </div>
-
-    <button id="stopButton">Stop</button>
   </div>
     
   <script src="/scripts/wordGenerator.js"></script>
